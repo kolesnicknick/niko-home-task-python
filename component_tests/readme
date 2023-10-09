@@ -1,1 +1,10 @@
-A placeholder for the readme of the component tests. 
+As you can see I separated component test, which is E2E and unit tests
+
+For unit tests I tried to go method - over - method and cover the main functionality of it.
+I covered positive cases, negative cases, boundary values, equivalent partitioning and so on.
+Most of method names are describing what test method is trying to do.
+
+For some cases, I believe functionality of main class should be updated, so I created tests that fail now,
+ but with the fix of main class and adding those features - would be working well. So it is kind of TDD, when we create test first and then add functionality to make test pass
+
+In general - most of cases are covered in unit tests, but there are some tests that from my opinion are good to be covered on E2E level in component tests
